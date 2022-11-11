@@ -1,0 +1,179 @@
+/* @media screen and(max-width:1000px) {
+  .div{width:100%;margin:10px 0;}
+  .wrapper{width:100%;margin:10px 0;}
+  .input{width:100%;margin:10px 0;}
+  .topbar{width:100%;margin:10px 0;}
+  .metin{width:100%;margin:10px 0;}
+  .card{width:100%;margin:10px 0;}
+  .product-canvas{width:100%;margin:10px 0;}
+} */
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+.App{
+  height: 100%;
+}
+.topbar{
+  background-color: rgb(145, 34, 108);
+  height: 90px;
+  margin:20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+.h1{
+ font-size: 40px;
+ color: #1ed10e;
+ text-align:left;
+ 
+}
+.div{
+ background-color: #1d191b;
+ position: relative;
+ width: 700px;
+ top:100px;
+ text-align: center;
+ left:100px;
+ border-radius: 30px;
+
+}
+.metin{
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 50px;
+  height: 500px;
+  width: 600px; 
+  font-size: 70px;
+  border-radius: 20px;
+}
+.searcbar{
+  background-color: rgb(248, 255, 255);
+  width: 250px;
+  height: 30px;
+  position: relative;
+  margin-left: 500px;
+  border-radius: 50px;
+  top: 60px;    
+  
+}
+
+.wrapper {
+ position: relative;
+  min-height: 10vh;
+  align-items: center;
+  font-size: 30px;
+  width: 600px;
+  background-color:  rgb(148, 115, 135);
+  color:rgb(244, 14, 167);
+  top: -550px;
+  margin-left: 55%;
+  
+}
+
+.card {
+  position: relative;
+  height: 50vh;
+  border-radius: 13px;
+  padding: 2rem;
+  width: 107%;
+  background-color:  #0c0f0d;
+  top:-60px;
+  
+}
+
+.product-canvas {
+  width: 30vw;
+  height: 38vh;
+  background:rgb(26, 30, 26);
+  box-shadow:  10px 10px 50px 10px #d10e70;
+  border-radius: 0px;
+  margin-bottom:20px;
+  
+}
+
+.colors {
+  position: relative;
+  display: inline;
+  top: 4%;
+  width: 40px;
+}
+.input{
+  position: relative;
+  display: inline;
+  top: 5%;
+  width: 25px;
+}
+.input:hover,
+.input.active{
+  box-shadow: 1px 1px 1px 10px rgb(192, 3, 3);
+}
+.controls{
+  position: relative;
+  font-size: 50px;
+  width: 105%;
+  height: 60%;
+  right: 20px;
+  background-color: #d10e70;
+  padding: 10px;
+
+}
+.button{
+  position: relative;
+  margin: 10px;
+  font-size: 20px;
+  width: 50px;
+}
+.button:hover,
+.button.active{
+  box-shadow: 1px 1px 10px 10px chartreuse;
+}
+.listen{
+  position: relative;
+  font-size: 60px;
+  
+  top: 190px;
+  background-color: rgb(176, 228, 196);
+  border-radius: 20px;
+}
+.listen:hover,
+.listen.active{
+  box-shadow: 1px 1px 1px 10px rgb(12, 199, 46);
+}
+.h2{
+  font-size: 40px;
+  color: #d10e70;
+}
+.rate{
+  color: #1ed10e;
+}
+.pitch
+{
+  color: #1ed10e;
+}
+.navv{
+  position: relative;
+  background-color: #e346bb;
+  border-radius: 10px;
+  display: inline;
+  margin-left: 10px;
+  top: 80px;
+  list-style: none;
+ 
+}
+.navv:hover,
+.navv.active{
+  box-shadow: 1px 1px 1px 10px rgb(5, 225, 45);
+}
+.label{
+  position: relative;
+  top:5%;
+}
+.a{
+  position: relative;
+  top:20%;
+}
+.b{
+  text-decoration: none;
+}
